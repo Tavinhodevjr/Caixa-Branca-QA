@@ -16,7 +16,7 @@ Abaixo, estão listados os problemas encontrados no código, junto com as corre�
 - **Erro:** A classe `User` e variáveis como `nome`, `result` e `sql` não são descritivas, ainda mais se considerarmos a mistura de idioma e não cumprimento de boas práticas para descrição de variáveis. 
 
 - **Correção:**  
-  - Renomear a classe para algo mais representativo, como `LoginUser`.  
+  - Renomear a classe para algo mais representativo, como `loginUser`.  
   - Usar nomes de variáveis mais específicos, como `nameUser`, `resultConnection` e `querySql`.  
 
 ### 🚫 3. Possível `NullPointerException`  
@@ -48,8 +48,32 @@ O formulário, disponível no arquivo **PLANO DE TESTE.xls**, contém:
 ### Localização do Arquivo  
 O arquivo está disponível na seguinte estrutura do repositório:  
 
-- 📂/planilhas
+- 📂/public/planilhas/
 └── Plano de Teste.xls
+
+## Etapa 3 - Elaboração do Grafo de Fluxo e Cálculo da Complexidade Ciclomática
+
+### 🔄 1. Grafo de Fluxo
+
+- O grafo de fluxo foi elaborado com base nos pontos significativos do código, considerando os fluxos de controle.
+- Para a elaboração do grafo de fluxo, foi criado um novo arquivo loginUser.java no qual foram pontuados os nós dentro do código, através de comentários. 
+
+- Grafo Visual 🎨
+
+### Grafo de Fluxo ![Imagem do Grafo de Fluxo](public/images/Grafo%20de%20Fluxo.png)
+
+### 🔄 2. Complexidade Ciclomática
+
+- A complexidade ciclomática foi calculada utilizando a fórmula:
+  - M=E−N+2P
+  - M=E−N+2P
+
+- Onde:
+    -  E (arestas): 🔗 26
+    -  N (nós): 📍 15
+    -  P (componentes conectados): 1️⃣
+
+- Resultado: A complexidade ciclomática é 3️⃣, indicando que o código possui três caminhos lineares independentes.
 
 **Autor:** [Otávio Pampolha]  
 **Data:** [01-12-2024]  
