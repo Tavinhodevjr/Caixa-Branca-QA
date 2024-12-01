@@ -1,6 +1,8 @@
 # 📊 Análise de Código - Teste de Caixa Branca Estático 🛠️
 
-Este repositório contém a análise de código do exercício de Teste de Caixa Branca Estático para a disciplina de QA e Testes de Software. 
+Este repositório contém a análise de código do exercício de Teste de Caixa Branca Estático para a disciplina de QA e Testes de Software, que foi realizado em 4 Etapas.
+
+# Etapa 1 - Identificação de Erros, criação do repositório e elaboração do read.me (esse que está lendo)
 
 ## ⚠️ Problemas Identificados  
 
@@ -29,6 +31,25 @@ Abaixo, estão listados os problemas encontrados no código, junto com as corre�
 - **Erro:** O código mistura a lógica de acesso ao banco de dados e a lógica de negócio na mesma classe.  
 - **Correção:**  
   - Separar a lógica utilizada no código, se possível utilizando o padrão DAO.
+
+# Etapa 2 - Preenchimento do Formulário de Teste Estático
+
+### Sobre o Formulário  
+O formulário, disponível no arquivo **PLANO DE TESTE.xls**, contém:  
+- Identificação dos problemas encontrados no código.  
+- Status de conformidade com os itens avaliados.  
+- Correções sugeridas para cada problema identificado.  
+
+### Ações Realizadas  
+1. Preenchimento completo do formulário com base nos erros identificados.  
+2. Salvamento do arquivo no formato `.xls`.  
+3. Inclusão do arquivo no repositório remoto na branch atual.  
+
+### Localização do Arquivo  
+O arquivo está disponível na seguinte estrutura do repositório:  
+
+- 📂/planilhas
+└── Plano de Teste.xls
 
 **Autor:** [Otávio Pampolha]  
 **Data:** [01-12-2024]  
