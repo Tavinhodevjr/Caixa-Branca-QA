@@ -75,5 +75,13 @@ O arquivo está disponível na seguinte estrutura do repositório:
 
 - Resultado: A complexidade ciclomática é 3️⃣, indicando que o código possui três caminhos lineares independentes.
 
+### 🛤️ 3. Base de Caminhos
+
+- Com base na análise do grafo de fluxo, identificamos os seguintes caminhos possíveis:
+
+  - Caminho 1: 1 → 2 → 3 → 6 → 9 → 11 → 12 → 13 → 14 → 15 → 16 → 17 → 20 
+  - Caminho 2: 1 → 2 → 4 → 6 → 9 → 11 → 12 → 13 → 14 → 15 → 16 → 17 → 20 
+  - Caminho 3: 1 → 2 → 3 → 6 → 9 → 11 → 12 → 13 → 14 → 15 → 19 → 20 
+
 **Autor:** [Otávio Pampolha]  
 **Data:** [01-12-2024]  
