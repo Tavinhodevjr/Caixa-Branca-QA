@@ -84,5 +84,5 @@ O arquivo está disponível na seguinte estrutura do repositório:
   - Caminho 2: 1 → 2 → 4 → 6 → 9 → 11 → 12 → 13 → 14 → 15 → 16 → 17 → 20 
   - Caminho 3: 1 → 2 → 3 → 6 → 9 → 11 → 12 → 13 → 14 → 15 → 19 → 20 
 
-**Autor:** [Otávio Pampolha]  
+**Autor:** [Otávio Bezerra]  
 **Data:** [01-12-2024]  
