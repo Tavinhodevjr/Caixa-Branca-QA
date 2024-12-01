@@ -29,8 +29,7 @@ Abaixo, estão listados os problemas encontrados no código, junto com as corre�
 
 ### 🏛️ 5. Violação de Arquitetura  
 - **Erro:** O código mistura a lógica de acesso ao banco de dados e a lógica de negócio na mesma classe.  
-- **Correção:**  
-  - Separar a lógica utilizada no código, se possível utilizando o padrão DAO.
+- **Correção:** Separar a lógica utilizada no código, se possível utilizando o padrão DAO.
 
 # Etapa 2 - Preenchimento do Formulário de Teste Estático
 
