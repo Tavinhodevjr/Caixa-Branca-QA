@@ -48,10 +48,9 @@ O formulário, disponível no arquivo **PLANO DE TESTE.xls**, contém:
 ### Localização do Arquivo  
 O arquivo está disponível na seguinte estrutura do repositório:  
 
-- 📂/public/planilhas/
-└── Plano de Teste.xls
+- 📂 /public/planilhas/Plano de Teste.xls
 
-## Etapa 3 - Elaboração do Grafo de Fluxo e Cálculo da Complexidade Ciclomática
+## Etapa 3 - Elaboração do Grafo de Fluxo, Cálculo da Complexidade Ciclomática e Base de Caminhos.
 
 ### 🔄 1. Grafo de Fluxo
 
@@ -60,9 +59,11 @@ O arquivo está disponível na seguinte estrutura do repositório:
 
 - Grafo Visual 🎨
 
-### Grafo de Fluxo ![Imagem do Grafo de Fluxo](public/images/Grafo%20de%20Fluxo.png)
+### Grafo de Fluxo 
 
-### 🔄 2. Complexidade Ciclomática
+![Imagem do Grafo de Fluxo](public/images/Grafo%20de%20Fluxo.png)
+
+### 🧮 2. Complexidade Ciclomática
 
 - A complexidade ciclomática foi calculada utilizando a fórmula:
   - M=E−N+2P
@@ -74,6 +75,14 @@ O arquivo está disponível na seguinte estrutura do repositório:
     -  P (componentes conectados): 1️⃣
 
 - Resultado: A complexidade ciclomática é 3️⃣, indicando que o código possui três caminhos lineares independentes.
+
+### 🛤️ 3. Base de Caminhos
+
+- Com base na análise do grafo de fluxo, identificamos os seguintes caminhos possíveis:
+
+  - Caminho 1: 1 → 2 → 3 → 6 → 9 → 11 → 12 → 13 → 14 → 15 → 16 → 17 → 20 
+  - Caminho 2: 1 → 2 → 4 → 6 → 9 → 11 → 12 → 13 → 14 → 15 → 16 → 17 → 20 
+  - Caminho 3: 1 → 2 → 3 → 6 → 9 → 11 → 12 → 13 → 14 → 15 → 19 → 20 
 
 **Autor:** [Otávio Pampolha]  
 **Data:** [01-12-2024]  
