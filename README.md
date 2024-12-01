@@ -83,5 +83,11 @@ O arquivo está disponível na seguinte estrutura do repositório:
   - Caminho 2: 1 → 2 → 4 → 6 → 9 → 11 → 12 → 13 → 14 → 15 → 16 → 17 → 20 
   - Caminho 3: 1 → 2 → 3 → 6 → 9 → 11 → 12 → 13 → 14 → 15 → 19 → 20 
 
+# Etapa 4 - Elaborando a documentação do Projeto com Javadoc
+
+A documentação do código-fonte foi gerada com Javadoc e pode ser acessada no:
+
+[link da documentação](doc/index.html).
+
 **Autor:** [Otávio Pampolha]  
 **Data:** [01-12-2024]  
