@@ -48,8 +48,7 @@ O formulário, disponível no arquivo **PLANO DE TESTE.xls**, contém:
 ### Localização do Arquivo  
 O arquivo está disponível na seguinte estrutura do repositório:  
 
-- 📂/public/planilhas/
-└── Plano de Teste.xls
+- 📂/public/planilhas/Plano de Teste.xls
 
 ## Etapa 3 - Elaboração do Grafo de Fluxo e Cálculo da Complexidade Ciclomática
 
@@ -58,9 +57,9 @@ O arquivo está disponível na seguinte estrutura do repositório:
 - O grafo de fluxo foi elaborado com base nos pontos significativos do código, considerando os fluxos de controle.
 - Para a elaboração do grafo de fluxo, foi criado um novo arquivo loginUser.java no qual foram pontuados os nós dentro do código, através de comentários. 
 
-- Grafo Visual 🎨
+### Grafo de Fluxo 
 
-### Grafo de Fluxo ![Imagem do Grafo de Fluxo](public/images/Grafo%20de%20Fluxo.png)
+![Imagem do Grafo de Fluxo](public/images/Grafo%20de%20Fluxo.png)
 
 ### 🔄 2. Complexidade Ciclomática
 
@@ -88,6 +87,14 @@ O arquivo está disponível na seguinte estrutura do repositório:
 A documentação do código-fonte foi gerada com Javadoc e pode ser acessada no:
 
 [link da documentação](doc/index.html).
+
+### Localização do Arquivo  
+O arquivo está disponível na seguinte estrutura do repositório:  
+- 📂/doc/index.html
+
+### Localização do Arquivo  
+
+- Para visualizar a página web, baixar o repositório remoto e utilizar uma extensão de carregamento como Live Server para visualização da documentação.
 
 **Autor:** [Otávio Pampolha]  
 **Data:** [01-12-2024]  
