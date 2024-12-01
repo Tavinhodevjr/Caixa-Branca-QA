@@ -1,18 +1,34 @@
-## Getting Started
+# 📊 Análise de Código - Teste de Caixa Branca Estático 🛠️
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este repositório contém a análise de código do exercício de Teste de Caixa Branca Estático para a disciplina de QA e Testes de Software. 
 
-## Folder Structure
+## ⚠️ Problemas Identificados  
 
-The workspace contains two folders by default, where:
+Abaixo, estão listados os problemas encontrados no código, junto com as correções sugeridas:  
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+### 📝 1. Documentação Ausente  
+- **Erro:** O código não possui comentários explicativos ou documentação.  
+- **Correção:** Adicionar comentários para descrever os métodos, variáveis e fluxos do programa.  
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+### 💡 2. Nomeclatura Pouco Significativa  
+- **Erro:** A classe `User` e variáveis como `nome`, `result` e `sql` não são descritivas, ainda mais se considerarmos a mistura de idioma e não cumprimento de boas práticas para descrição de variáveis. 
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+- **Correção:**  
+  - Renomear a classe para algo mais representativo, como `LoginUser`.  
+  - Usar nomes de variáveis mais específicos, como `nameUser`, `resultConnection` e `querySql`.  
 
-## Dependency Management
+### 🚫 3. Possível `NullPointerException`  
+- **Erro:** No método `verificarUsuario`, a variável `conn` pode ser `null` se a conexão falhar no método `conectarBD`.  
+- **Correção:** Verificar se `conn` é diferente de `null` antes de usá-la para confirmar a conexão com o banco de dados. 
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+### 🔍 4. Tratamento de Exceções Incompleto  
+- **Erro:** Os blocos `catch` não tratam as exceções ou exibem mensagens, além de estarem incompletos tanto descritivamente, como na sua sintaxe.
+- **Correção:** Adicionar mensagens de erro para visualização dos problemas é uma solução.  
+
+### 🏛️ 5. Violação de Arquitetura  
+- **Erro:** O código mistura a lógica de acesso ao banco de dados e a lógica de negócio na mesma classe.  
+- **Correção:**  
+  - Separar a lógica utilizada no código, se possível utilizando o padrão DAO.
+
+**Autor:** [Otávio Pampolha]  
+**Data:** [01-12-2024]  
