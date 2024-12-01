@@ -1,7 +1,7 @@
 // Código reescrito com os comentários pontuando cada nó identificado para a sequência de funcionamento do código.
 // Algumas chaves e espaçamentos foram feitos, apenas para questão de melhor legibilidade.
 
-ppackage login;
+package login;
 
 import java.sql.Connection;
 import java.sql.DriveManager;
